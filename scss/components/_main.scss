@@ -12,7 +12,6 @@ html {
   text-size-adjust: 100%;
 }
 
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -27,11 +26,12 @@ body{
   width: 100%;
 }
 
-.pp-title {
+.pp-name {
   text-transform: uppercase;
+  font-weight: 900;
 }
 
-.pp-spec {
+.pp-skill {
   text-transform: uppercase;
   line-height: 1.3;
   font-weight: 100;
@@ -53,6 +53,27 @@ body{
     &:hover {
       text-decoration: underline;
     }
+}
+
+.pp-social-icon {
+  height: 50px;
+
+  &:hover {
+      -webkit-animation: icons 800ms ease-in-out;
+      animation: icons 800ms ease-in-out;
+    }
+}
+
+@-webkit-keyframes icons {
+    0% { transform: scale(1.0); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1.0); }
+}
+
+@keyframes icons {
+    0% { transform: scale(1.0); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1.0); }
 }
 
 // Grads navigation buttons
@@ -77,6 +98,7 @@ body{
 
 .pp-nav-btn-a {
   width: 8em;
+  font-weight: 100;
   @include pp-nav-btn;
 }
 
