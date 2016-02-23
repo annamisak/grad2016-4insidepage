@@ -16,6 +16,9 @@ tmp
 *.indd
 *.indb
 
+#Prepros
+*.cfg
+
 # Compressed files
 *.zip
 *.gz
