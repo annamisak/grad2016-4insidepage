@@ -1,25 +1,17 @@
-// Variables
-$grey: #55565a;
-$off-white: #f8f2e9;
-$dark-grey: #111820;
-$yellow: #eab63f;
-$purple: #64689b;
-$green: #00a29c;
-$red: #df4827;
-$white: #fff;
-$black: #000;
+// WHITE
+$white: #F8F2E9;
 
-$text-color: $black;
+// GREYS
+$grey-1: #DCDBDB; //lightest
+$grey-2: #A6A5A7;
+$grey-3: #7D7D80;
+$grey-4: #56565A; //darkest
 
-/*
-TINTS
-100%
-75%
-50%
-20%
-Examples:
-//name-of-class: lighten($color, percentage)
-.nav {
-background-color: lighten($grey, 75%);
-}
-*/
+// BLACK
+$black: #121820;
+
+// COLOURS
+$yellow: #EAB63F;
+$purple: #64689B;
+$teal: #00A29C;
+$red: #DF4827;

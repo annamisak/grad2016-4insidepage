@@ -26,3 +26,67 @@ body{
   display: block;
   width: 100%;
 }
+
+// Grads navigation buttons
+
+.pp-wrap, .pp-wrap-name {
+  width: 100%;
+  background-color: $grey-1;
+}
+
+.pp-nav-btn {
+  list-style-type: none;
+  width: auto;
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.pp-nav-btn-li {
+  display: inline-block;
+  left: 33%;
+}
+
+.pp-nav-btn-a {
+  width: 8em;
+  @include pp-nav-btn;
+}
+
+.pp-nav-btn-arrows {
+  width: 4em;
+  font-weight: 600;
+  margin: 0;
+  @include pp-nav-btn;
+    &:hover {
+      font-weight: 600;
+    }
+}
+
+.pp-off {
+  display: none;
+  margin: 0;
+}
+
+.pp-on {
+  visibility: visible;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pp-on {
+    display: none;
+  }
+
+  .pp-off {
+    display: inherit;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pp-wrap-name {
+    background-color: #fff;
+  }
+
+}

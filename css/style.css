@@ -1,16 +1,4 @@
 /*
-TINTS
-100%
-75%
-50%
-20%
-Examples:
-//name-of-class: lighten($color, percentage)
-.nav {
-background-color: lighten($grey, 75%);
-}
-*/
-/*
   Gridifier || Code released under the UNLICENSE
   http://thomasjbradley.github.io/gridifier/#xs,8,0,0,0;s,8,25,0,0;m,8,38,1,1;l,8,60,1,1;xl,8,80,1,1
 */
@@ -1374,4 +1362,86 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.pp-wrap, .pp-wrap-name {
+  width: 100%;
+  background-color: #DCDBDB;
+}
+
+.pp-nav-btn {
+  list-style-type: none;
+  width: auto;
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.pp-nav-btn-li {
+  display: inline-block;
+  left: 33%;
+}
+
+.pp-nav-btn-a {
+  width: 8em;
+  display: block;
+  text-transform: uppercase;
+  padding: 1em;
+  color: #F8F2E9;
+  background-color: #121820;
+  text-decoration: none;
+}
+
+.pp-nav-btn-a:hover {
+  color: #121820;
+  background-color: #F8F2E9;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.pp-nav-btn-arrows {
+  width: 4em;
+  font-weight: 600;
+  margin: 0;
+  display: block;
+  text-transform: uppercase;
+  padding: 1em;
+  color: #F8F2E9;
+  background-color: #121820;
+  text-decoration: none;
+}
+
+.pp-nav-btn-arrows:hover {
+  color: #121820;
+  background-color: #F8F2E9;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.pp-nav-btn-arrows:hover {
+  font-weight: 600;
+}
+
+.pp-off {
+  display: none;
+  margin: 0;
+}
+
+.pp-on {
+  visibility: visible;
+}
+
+@media only screen and (min-width: 38em) {
+  .pp-on {
+    display: none;
+  }
+  .pp-off {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .pp-wrap-name {
+    background-color: #fff;
+  }
 }
