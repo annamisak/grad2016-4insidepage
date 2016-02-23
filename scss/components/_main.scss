@@ -26,9 +26,18 @@ body{
   width: 100%;
 }
 
+.pp-name-sm {
+  display: block;
+  font-size: .5em;
+  font-weight: 200;
+  line-height: 1em;
+}
+
 .pp-name {
   text-transform: uppercase;
   font-weight: 900;
+  font-size: 2.5em;
+  margin-bottom: 0;
 }
 
 .pp-skill {
@@ -137,6 +146,17 @@ body{
 
   .pp-wrap-name {
     background-color: #fff;
+  }
+
+  .pp-name-sm {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 900;
+    line-height: 1em;
+  }
+
+  .pp-name {
+    margin-top: 1em;
   }
 
 }
